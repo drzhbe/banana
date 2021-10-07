@@ -1,0 +1,26 @@
+{
+  "name": "banana",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@react-three/drei": "^7.12.6",
+    "@react-three/fiber": "^7.0.10",
+    "@react-three/postprocessing": "^2.0.5",
+    "gltfjsx": "^4.5.2",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "three": "^0.133.1"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/three": "^0.133.0",
+    "@vitejs/plugin-react": "^1.0.0",
+    "typescript": "^4.3.2",
+    "vite": "^2.6.0"
+  }
+}
